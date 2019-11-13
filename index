@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>James Blog</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <nav href="#header"></nav>
+        <u>
+            <li class="navbar"><a href="#skill">Skill</a></li>
+            <li class="navbar"><a href="#schedule">Schedule</a></li>
+        </u>
+    </head>
+
+    <body>
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="IMG_0585.JPG">
+            <p>James Frederix Rolianto</p>
+        </div>
+
+        <div class="section">
+            <h1><span>About Me</span></h1>
+            <p>
+                Hai! Namaku <strong>James</strong>. Aku adalah mahasiswa Universitas Indonesia.
+                Aku adalah mahasiswa Ilmu Komputer disana.
+            </p>
+            <p class="quote">"Harta, Tahta, Nilai A"</p>
+        </div>
+
+        <div id="schedule" class="section">
+            <h1><span>My schedule</span></h1>
+            <table>
+                <tr>
+                    <th>Jam</th>
+                    <th>Senin</th>
+                    <th>Selasa</th>
+                    <th>Rabu</th>
+                    <th>Kamis</th>
+                    <th>Jum'at</th>
+                    <th>Sabtu</th>
+                    <th>Minggu</th>
+                </tr>
+
+                <tr>
+                    <td>8.00</td>
+                    <td class="selected">DDP1-H</td>
+                    <td></td>
+                    <td class="selected">DDP1-H</td>
+                    <td class="selected">FisDas-C</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>10.00</td>
+                    <td></td>
+                    <td class="selected">MD1-D</td>
+                    <td></td>
+                    <td class="selected">MD1-D</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>13.00</td>
+                    <td class="selected">MPK Inggris-B</td>
+                    <td class="selected">MPKTB-D</td>
+                    <td></td>
+                    <td class="selected">MPKTB-D</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>14.30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">FisDas-C</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>14.00</td>
+                    <td class="selected">Lab DDP1-H</td>
+                    <td class="selected">MPKO</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="skill" class="section">
+            <h1><span>My Skills</span></h1>
+            <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="80"></progress>
+                </li>
+
+                <li>Python <br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+
+                <li>CSS <br />
+                    <progress min="0" max="100" value="30"></progress>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section" id="contact">
+            <h1><span>Follow Me on Social Media</span></h1>
+            <div>
+                <a href=https://www.instagram.com/james_frederix></a>
+            </div>
+        </div>
+    </body>
+        
+</html>
